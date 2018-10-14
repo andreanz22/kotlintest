@@ -1,4 +1,4 @@
-package com.dicoding.kotlinacademy.teams
+package footballapi.novan.dicoding.footballapi.teams
 
 import android.support.v7.widget.RecyclerView
 import android.view.View

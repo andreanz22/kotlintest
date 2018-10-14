@@ -1,4 +1,4 @@
-package com.dicoding.kotlinacademy.teams
+package footballapi.novan.dicoding.footballapi
 
 import footballapi.novan.dicoding.footballapi.model.Team
 

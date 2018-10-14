@@ -25,32 +25,32 @@ class HomeActivityTest {
     fun testRecyclerViewBehaviour() {
         onView(withId(list_team))
                 .check(matches(isDisplayed()))
-        onView(withId(list_team)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(10))
-        onView(withId(list_team)).perform(
-                RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(10, click()))
+//        onView(withId(list_team)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(10))
+//        onView(withId(list_team)).perform(
+//                RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(10, click()))
     }
 
-    @Test
-    fun testAppBehaviour() {
-        onView(withId(spinner))
-                .check(matches(isDisplayed()))
-        onView(withId(spinner)).perform(click())
-        onView(withText("Spanish La Liga")).perform(click())
-
-        onView(withText("Barcelona"))
-                .check(matches(isDisplayed()))
-        onView(withText("Barcelona")).perform(click())
-
-        onView(withId(add_to_favorite))
-                .check(matches(isDisplayed()))
-        onView(withId(add_to_favorite)).perform(click())
-        onView(withText("Added to favorite"))
-                .check(matches(isDisplayed()))
-        pressBack()
-
-        onView(withId(bottom_navigation))
-                .check(matches(isDisplayed()))
-        onView(withId(favorites)).perform(click())
-    }
+//    @Test
+//    fun testAppBehaviour() {
+//        onView(withId(spinner))
+//                .check(matches(isDisplayed()))
+//        onView(withId(spinner)).perform(click())
+//        onView(withText("Spanish La Liga")).perform(click())
+//
+//        onView(withText("Barcelona"))
+//                .check(matches(isDisplayed()))
+//        onView(withText("Barcelona")).perform(click())
+//
+//        onView(withId(add_to_favorite))
+//                .check(matches(isDisplayed()))
+//        onView(withId(add_to_favorite)).perform(click())
+//        onView(withText("Added to favorite"))
+//                .check(matches(isDisplayed()))
+//        pressBack()
+//
+//        onView(withId(bottom_navigation))
+//                .check(matches(isDisplayed()))
+//        onView(withId(favorites)).perform(click())
+//    }
 
 }

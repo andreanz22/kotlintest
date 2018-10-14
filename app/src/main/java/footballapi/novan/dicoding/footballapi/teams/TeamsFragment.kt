@@ -10,12 +10,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.dicoding.kotlinacademy.teams.TeamsAdapter
-import com.dicoding.kotlinacademy.teams.TeamsView
 import com.google.gson.Gson
 import footballapi.novan.dicoding.footballapi.R
 import footballapi.novan.dicoding.footballapi.R.array.league
 import footballapi.novan.dicoding.footballapi.R.color.colorAccent
+import footballapi.novan.dicoding.footballapi.TeamsView
 import footballapi.novan.dicoding.footballapi.api.ApiRepository
 import footballapi.novan.dicoding.footballapi.model.Team
 import footballapi.novan.dicoding.footballapi.teamdetail.TeamDetailActivity

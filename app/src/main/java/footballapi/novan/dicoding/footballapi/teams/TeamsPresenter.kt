@@ -1,11 +1,11 @@
 package footballapi.novan.dicoding.footballapi.teams
 
-import com.dicoding.kotlinacademy.teams.TeamsView
 import footballapi.novan.dicoding.footballapi.api.ApiRepository
 import footballapi.novan.dicoding.footballapi.api.TheSportDBApi
 import footballapi.novan.dicoding.footballapi.model.TeamResponse
 import footballapi.novan.dicoding.footballapi.util.CoroutineContextProvider
 import com.google.gson.Gson
+import footballapi.novan.dicoding.footballapi.TeamsView
 import kotlinx.coroutines.experimental.async
 import org.jetbrains.anko.coroutines.experimental.bg
 
